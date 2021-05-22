@@ -18,8 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/tailwind.css') }}" rel="stylesheet">
+
+    {{-- pulam --}}
+    <link rel="stylesheet" href="{{ asset('css/bulma.min.css') }}">
 </head>
-<body>
+<body class="bg-gray-200">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
@@ -72,7 +76,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4 container" style="min-height: 650px;">
             @yield('content')
         </main>
     </div>
