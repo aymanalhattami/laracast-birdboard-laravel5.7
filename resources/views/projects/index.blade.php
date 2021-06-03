@@ -14,4 +14,10 @@
             <div>No Items found</div>
         @endforelse
     </main>
+
+    {{-- <modal name="hello-world">
+        hello, world !
+    </modal> --}}
+
+    {{-- <a href="" @click.prevent="$modal.show('hello-world')">New Project</a> --}}
 @endsection
